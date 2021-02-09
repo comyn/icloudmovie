@@ -1,23 +1,21 @@
 {
-  "name": "testjob",
+  "name": "@comyn/testjob",
   "version": "1.0.0",
   "description": "ci,cd测试项目",
   "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "exit 0"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/comyn/testjob.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/comyn/testjob/issues"
   },
-  "homepage": "https://github.com/comyn/testjob#readme",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+  "homepage": "https://github.com/comyn/testjob#readme"
 }
