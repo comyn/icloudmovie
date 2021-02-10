@@ -1,21 +1,20 @@
 {
-  "name": "@comyn/testjob",
+  "name": "icloudmovie",
   "version": "1.0.0",
-  "description": "ci,cd测试项目",
+  "description": "",
   "main": "index.js",
-  "dependencies": {},
-  "devDependencies": {},
   "scripts": {
-    "test": "exit 0"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/comyn/testjob.git"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/comyn/testjob/issues"
-  },
-  "homepage": "https://github.com/comyn/testjob#readme"
+  "devDependencies": {
+    "@vuepress/plugin-search": "^1.8.0",
+    "vuepress": "^2.0.0-alpha.21"
+  }
 }
