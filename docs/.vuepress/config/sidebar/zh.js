@@ -1,88 +1,60 @@
 const zh = {
-  '/zh/guide/': [
+  '/guide/': [
     {
       isGroup: true,
-      text: '指南',
+      text: 'Guide',
+      children: ['/guide/README.md', '/guide/getting-started.md', '/guide/configuration.md']
+    }
+  ],
+  '/guide/advanced/': [
+    {
+      isGroup: true,
+      text: 'Advanced',
+      children: ['/guide/advanced/architecture.md', '/guide/advanced/plugin.md', '/guide/advanced/theme.md', '/guide/advanced/markdown.md']
+    }
+  ],
+  '/reference/': [
+    {
+      isGroup: true,
+      text: 'VuePress Reference',
       children: [
-        '/zh/guide/README.md',
-        '/zh/guide/getting-started.md',
-        '/zh/guide/configuration.md',
-        '/zh/guide/page.md',
-        '/zh/guide/markdown.md',
-        '/zh/guide/assets.md',
-        '/zh/guide/i18n.md',
-        '/zh/guide/deployment.md',
-        '/zh/guide/theme.md',
-        '/zh/guide/plugin.md',
-        '/zh/guide/bundler.md'
+        '/reference/cli.md',
+        '/reference/config.md',
+        '/reference/frontmatter.md',
+        '/reference/components.md',
+        '/reference/plugin-api.md',
+        '/reference/theme-api.md',
+        '/reference/client-api.md',
+        '/reference/node-api.md'
       ]
     }
   ],
-  '/zh/guide/advanced/': [
+  '/reference/bundler/': [
     {
       isGroup: true,
-      text: '深入',
-      children: [
-        '/zh/guide/advanced/architecture.md',
-        '/zh/guide/advanced/plugin.md',
-        '/zh/guide/advanced/theme.md',
-        '/zh/guide/advanced/markdown.md'
-      ]
+      text: 'Bundlers Reference',
+      children: ['/reference/bundler/webpack.md', '/reference/bundler/vite.md']
     }
   ],
-  '/zh/reference/': [
+  '/reference/plugin/': [
     {
       isGroup: true,
-      text: 'VuePress 参考',
-      children: [
-        '/zh/reference/cli.md',
-        '/zh/reference/config.md',
-        '/zh/reference/frontmatter.md',
-        '/zh/reference/components.md',
-        '/zh/reference/plugin-api.md',
-        '/zh/reference/theme-api.md',
-        '/zh/reference/client-api.md',
-        '/zh/reference/node-api.md'
-      ]
+      text: 'Official Plugins Reference',
+      children: ['/reference/plugin/active-header-links.md', '/reference/plugin/back-to-top.md']
     }
   ],
-  '/zh/reference/bundler/': [
+  '/server/CSharp/': [
     {
       isGroup: true,
-      text: '打包工具参考',
-      children: ['/zh/reference/bundler/webpack.md', '/zh/reference/bundler/vite.md']
+      text: 'dotnet 平台开发',
+      children: ['/server/CSharp/README.md', '/server/CSharp/README1.md']
     }
   ],
-  '/zh/reference/default-theme/': [
+  '/server/Java/': [
     {
       isGroup: true,
-      text: '默认主题参考',
-      children: [
-        '/zh/reference/default-theme/config.md',
-        '/zh/reference/default-theme/frontmatter.md',
-        '/zh/reference/default-theme/components.md',
-        '/zh/reference/default-theme/markdown.md'
-      ]
-    }
-  ],
-  '/zh/reference/plugin/': [
-    {
-      isGroup: true,
-      text: '官方插件参考',
-      children: [
-        '/zh/reference/plugin/active-header-links.md',
-        '/zh/reference/plugin/back-to-top.md',
-        '/zh/reference/plugin/container.md',
-        '/zh/reference/plugin/debug.md',
-        '/zh/reference/plugin/docsearch.md',
-        '/zh/reference/plugin/git.md',
-        '/zh/reference/plugin/google-analytics.md',
-        '/zh/reference/plugin/medium-zoom.md',
-        '/zh/reference/plugin/nprogress.md',
-        '/zh/reference/plugin/palette-stylus.md',
-        '/zh/reference/plugin/pwa.md',
-        '/zh/reference/plugin/pwa-popup.md'
-      ]
+      text: 'Java 知识',
+      children: ['/server/Java/test1.md', '/server/Java/test2.md']
     }
   ]
 }

@@ -3,19 +3,7 @@ const en = {
     {
       isGroup: true,
       text: 'Guide',
-      children: [
-        '/guide/README.md',
-        '/guide/getting-started.md',
-        '/guide/configuration.md',
-        '/guide/page.md',
-        '/guide/markdown.md',
-        '/guide/assets.md',
-        '/guide/i18n.md',
-        '/guide/deployment.md',
-        '/guide/theme.md',
-        '/guide/plugin.md',
-        '/guide/bundler.md'
-      ]
+      children: ['/guide/README.md', '/guide/getting-started.md', '/guide/configuration.md']
     }
   ],
   '/guide/advanced/': [
@@ -48,36 +36,25 @@ const en = {
       children: ['/reference/bundler/webpack.md', '/reference/bundler/vite.md']
     }
   ],
-  '/reference/default-theme/': [
-    {
-      isGroup: true,
-      text: 'Default Theme Reference',
-      children: [
-        '/reference/default-theme/config.md',
-        '/reference/default-theme/frontmatter.md',
-        '/reference/default-theme/components.md',
-        '/reference/default-theme/markdown.md'
-      ]
-    }
-  ],
   '/reference/plugin/': [
     {
       isGroup: true,
       text: 'Official Plugins Reference',
-      children: [
-        '/reference/plugin/active-header-links.md',
-        '/reference/plugin/back-to-top.md',
-        '/reference/plugin/container.md',
-        '/reference/plugin/debug.md',
-        '/reference/plugin/docsearch.md',
-        '/reference/plugin/git.md',
-        '/reference/plugin/google-analytics.md',
-        '/reference/plugin/medium-zoom.md',
-        '/reference/plugin/nprogress.md',
-        '/reference/plugin/palette-stylus.md',
-        '/reference/plugin/pwa.md',
-        '/reference/plugin/pwa-popup.md'
-      ]
+      children: ['/reference/plugin/active-header-links.md', '/reference/plugin/back-to-top.md']
+    }
+  ],
+  '/server/CSharp/': [
+    {
+      isGroup: true,
+      text: 'dotnet 平台开发',
+      children: ['/server/CSharp/README.md', '/server/CSharp/README1.md']
+    }
+  ],
+  '/server/Java/': [
+    {
+      isGroup: true,
+      text: 'Java 知识',
+      children: ['/server/Java/test1.md', '/server/Java/test2.md']
     }
   ]
 }
