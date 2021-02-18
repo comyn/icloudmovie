@@ -3,31 +3,60 @@ const en = [
   {
     text: 'Reference',
     children: [
-      { text: 'VuePress', children: [{ text: 'CLI', link: '/reference/cli.html' }, '/reference/config.md', '/reference/node-api.md'] },
-      { text: 'Bundlers', children: ['/reference/bundler/webpack.md', '/reference/bundler/vite.md'] },
-      { text: 'Default Theme', children: ['/reference/default-theme/config.md', '/reference/default-theme/frontmatter.md'] },
-      { text: 'Official Plugins', link: '/reference/plugin/', children: [] }
+      {
+        text: 'VSCode',
+        children: [
+          '/reference/VSCode/VSCode设置.md',
+          '/reference/VSCode/VSCode插件.md',
+          '/reference/VSCode/Eslint配置.md',
+          { text: 'VSCode-SettingsSync配置', link: '/reference/VSCode/VSCode-SettingsSync配置.md' },
+          { text: 'VSCode快捷键-Win版本', link: '/reference/VSCode/VSCode快捷键-Win版本.md' }
+        ]
+      },
+      { text: 'Jenkins', children: ['/reference/Jenkins/Jenkins+Vue项目.md'] }
     ]
   },
   {
-    text: '后端记录',
+    text: '服务端',
     children: [
-      { text: 'VuePress', children: [{ text: 'CLI', link: '/reference/cli.html' }, '/reference/config.md', '/reference/frontmatter.md'] },
-      { text: 'Bundlers', children: ['/reference/bundler/webpack.md', '/reference/bundler/vite.md'] },
-      { text: 'Default Theme', children: ['/reference/default-theme/config.md', '/reference/default-theme/frontmatter.md'] },
-      { text: 'Official Plugins', link: '/reference/plugin/', children: [] },
       { text: 'C#', link: '/server/CSharp/', children: [] },
-      { text: 'NodeJS', link: '/server/NodeJS/', children: [] },
-      { text: 'Java', link: '/server/Java/', children: ['/server/Java/test1.md', '/server/Java/test2.md'] }
+      {
+        text: 'NodeJS',
+        link: '/server/NodeJS/',
+        children: [
+          { text: 'NodeJS服务运行-Forever', link: '/server/NodeJS/NodeJS服务运行-Forever.md' },
+          '/server/NodeJS/NodeJS安装.md',
+          { text: 'NodeJS服务运行-node-windows', link: '/server/NodeJS/NodeJS服务运行-node-windows.md' },
+          '/server/NodeJS/nodemon.md',
+          '/server/NodeJS/npm安装和卸载模块.md'
+        ]
+      },
+      {
+        text: 'Java',
+        link: '/server/Java/',
+        children: ['/server/Java/环境变量配置.md', '/server/Java/基础语法.md', '/server/Java/AS配置.md', '/server/Java/Gradle下载慢.md']
+      }
     ]
   },
   {
-    text: '前端记录',
+    text: '前端',
     children: [
-      { text: 'Web', link: '/client/Web/' },
-      { text: 'WPF', link: '/client/WPF/' },
-      { text: 'iOS', link: '/client/iOS/' },
-      { text: 'Android', link: '/client/Android/' }
+      {
+        text: 'Vue',
+        link: '/client/Vue/',
+        children: [
+          '/client/Vue/Vue CLI使用.md',
+          '/client/Vue/webpack使用.md',
+          '/client/Vue/VueRouter.md',
+          '/client/Vue/vue-axios使用.md',
+          '/client/Vue/Element-UI使用.md',
+          '/client/Vue/iView-Admin目录解释.md',
+          '/client/Vue/Mint-ui使用.md'
+        ]
+      },
+      { text: 'WPF', link: '/client/WPF/', children: [] },
+      { text: 'iOS', link: '/client/iOS/', children: [] },
+      { text: 'Android', link: '/client/Android/', children: [] }
     ]
   }
 ]

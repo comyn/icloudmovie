@@ -1,37 +1,65 @@
 const zh = [
-  { text: '指南', link: '/guide/' },
+  { text: 'Guide', link: '/zh/guide/' },
   {
-    text: '参考',
+    text: 'Reference',
     children: [
-      { text: 'VuePress', children: [{ text: 'CLI', link: '/reference/cli.html' }, '/reference/config.md', '/reference/node-api.md'] },
-      { text: 'Bundlers', children: ['/reference/bundler/webpack.md', '/reference/bundler/vite.md'] },
-      { text: 'Default Theme', children: ['/reference/default-theme/config.md', '/reference/default-theme/frontmatter.md'] },
-      { text: 'Official Plugins', link: '/reference/plugin/', children: [] }
+      {
+        text: 'VSCode',
+        children: [
+          '/zh/reference/VSCode/VSCode设置.md',
+          '/zh/reference/VSCode/VSCode插件.md',
+          '/zh/reference/VSCode/Eslint配置.md',
+          { text: 'VSCode-SettingsSync配置', link: '/zh/reference/VSCode/VSCode-SettingsSync配置.md' },
+          { text: 'VSCode快捷键-Win版本', link: '/zh/reference/VSCode/VSCode快捷键-Win版本.md' }
+        ]
+      },
+      { text: 'Jenkins', children: ['/zh/reference/Jenkins/Jenkins+Vue项目.md'] }
     ]
   },
   {
-    text: '后端记录',
+    text: '服务端',
     children: [
-      { text: 'VuePress', children: [{ text: 'CLI', link: '/reference/cli.html' }, '/reference/config.md', '/reference/frontmatter.md'] },
-      { text: 'Bundlers', children: ['/reference/bundler/webpack.md', '/reference/bundler/vite.md'] },
-      { text: 'Default Theme', children: ['/reference/default-theme/config.md', '/reference/default-theme/frontmatter.md'] },
-      { text: 'Official Plugins', link: '/reference/plugin/', children: [] },
-      { text: 'C#', link: '/server/CSharp/', children: [] },
-      { text: 'NodeJS', link: '/server/NodeJS/', children: [] },
-      { text: 'Java', link: '/server/Java/', children: ['/server/Java/test1.md', '/server/Java/test2.md'] }
+      { text: 'C#', link: '/zh/server/CSharp/', children: [] },
+      {
+        text: 'NodeJS',
+        link: '/zh/server/NodeJS/',
+        children: [
+          '/zh/server/NodeJS/NodeJS服务运行-Forever.md',
+          '/zh/server/NodeJS/NodeJS安装.md',
+          '/zh/server/NodeJS/NodeJS服务运行-node-windows.md',
+          '/zh/server/NodeJS/nodemon.md',
+          '/zh/server/NodeJS/npm安装和卸载模块.md'
+        ]
+      },
+      {
+        text: 'Java',
+        link: '/zh/server/Java/',
+        children: ['/zh/server/Java/环境变量配置.md', '/zh/server/Java/基础语法.md', '/zh/server/Java/AS配置.md', '/zh/server/Java/Gradle下载慢.md']
+      }
     ]
   },
   {
-    text: '前端记录',
+    text: '前端',
     children: [
-      { text: 'Web', link: '/client/Web/' },
-      { text: 'WPF', link: '/client/WPF/' },
-      { text: 'iOS', link: '/client/iOS/' },
-      { text: 'Android', link: '/client/Android/' }
+      {
+        text: 'Vue',
+        link: '/zh/client/Vue/',
+        children: [
+          '/zh/client/Vue/Vue CLI使用.md',
+          '/zh/client/Vue/webpack使用.md',
+          '/zh/client/Vue/VueRouter.md',
+          '/zh/client/Vue/vue-axios使用.md',
+          '/zh/client/Vue/Element-UI使用.md',
+          '/zh/client/Vue/iView-Admin目录解释.md',
+          '/zh/client/Vue/Mint-ui使用.md'
+        ]
+      },
+      { text: 'WPF', link: '/zh/client/WPF/' },
+      { text: 'iOS', link: '/zh/client/iOS/' },
+      { text: 'Android', link: '/zh/client/Android/' }
     ]
   }
 ]
-
 module.exports = {
   zh
 }

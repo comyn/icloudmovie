@@ -1,6 +1,6 @@
 ---
     home: true
-    heroImage: /images/logo.png
+    heroImage: /images/logo-100x100.png
     heroText: 我是标题
     tagline: 我是副标题
     actions:

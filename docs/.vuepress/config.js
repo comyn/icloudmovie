@@ -39,13 +39,14 @@ module.exports = {
 
   locales: {
     // 作为特例，默认语言可以使用 '/' 作为其路径。
+
     '/': {
-      lang: 'zh-CN',
-      title: '爱云影',
-      description: '云上世界'
+      lang: 'en-US',
+      title: 'AI Cloud Movie',
+      description: 'The world of cloud'
     },
-    '/en/': {
-      lang: 'en',
+    '/zh/': {
+      lang: 'zh-CN',
       title: '爱云影',
       description: '云上世界'
     }
@@ -57,7 +58,7 @@ module.exports = {
 
     // 如果你按照 `organization/repository` 的格式设置它
     // 我们会将它作为一个 GitHub 仓库
-    repo: 'comyn/blogcms',
+    repo: 'comyn/icloudmovie',
     // 如果你使用的不是 GitHub ，可以直接使用 URL
     // repo: 'https://gitlab.com/foo/bar'
 
@@ -66,7 +67,7 @@ module.exports = {
     // URL
     // logo: 'https://vuejs.org/images/logo.png',
     locales: {
-      '/en/': {
+      '/': {
         selectLanguageName: 'English',
 
         // navbar
@@ -78,7 +79,7 @@ module.exports = {
         // page meta
         editLinkText: 'Edit this page on GitHub'
       },
-      '/': {
+      '/zh/': {
         // navbar
         navbar: navbar.zh,
         selectLanguageName: '简体中文',
