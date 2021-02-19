@@ -15,5 +15,9 @@
   "license": "ISC",
   "devDependencies": {
     "vuepress": "^2.0.0-alpha.21"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:comyn/icloudmovie.git"
   }
 }
