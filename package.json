@@ -11,7 +11,7 @@
     "docs:build": "vuepress build docs"
   },
   "keywords": [],
-  "author": "",
+  "author": "comyn",
   "license": "ISC",
   "devDependencies": {
     "vuepress": "^2.0.0-alpha.21"
