@@ -10,7 +10,7 @@ const sidebar = Object.assign({}, sidebar_zh, sidebar_en)
 
 module.exports = {
   base: '/', // 设置站点根路径
-  dest: './dist', // 设置输出目录
+  // dest: './dist', // 设置输出目录
   port: 8090,
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }], // 增加一个自定义的 favicon(网页标签的图标)
