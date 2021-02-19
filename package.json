@@ -1,6 +1,6 @@
 {
   "name": "icloudmovie",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -19,5 +19,8 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:comyn/icloudmovie.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/comyn"
   }
 }
